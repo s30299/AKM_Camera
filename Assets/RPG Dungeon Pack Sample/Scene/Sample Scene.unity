@@ -400,6 +400,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 210876550206325803, guid: e87ea63bf3339784bb6459a7c836d16e, type: 3}
   m_PrefabInstance: {fileID: 1047159417}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &274275734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274275735}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274275735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274275734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.522, z: -1.357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 520203142}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &343532751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -614,6 +645,11 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4096174873352870629, guid: 6323b01d4ff4d8142b8f17a5245134f0, type: 3}
   m_PrefabInstance: {fileID: 754617719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &520203142 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 801975222913614767, guid: 9f6eb9b041cc23f4080df303337cfcba, type: 3}
+  m_PrefabInstance: {fileID: 638612581}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &528968375 stripped
 Transform:
@@ -1318,7 +1354,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 801975222913614767, guid: 9f6eb9b041cc23f4080df303337cfcba, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 274275735}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1123923082199896678, guid: 9f6eb9b041cc23f4080df303337cfcba, type: 3}
       insertIndex: -1
@@ -2390,8 +2429,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961739749}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.021612292, y: 0.86039865, z: -0.036615893, w: 0.50784487}
-  m_LocalPosition: {x: -11.8644495, y: 1.6532946, z: 1.1777751}
+  m_LocalRotation: {x: -0.04055108, y: -0.6608914, z: -0.035803348, w: 0.74852943}
+  m_LocalPosition: {x: 11.676, y: 5.403, z: -0.352}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4506,8 +4545,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890592711}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.021612292, y: 0.86039865, z: -0.036615893, w: 0.50784487}
-  m_LocalPosition: {x: -11.8644495, y: 1.6532946, z: 1.1777751}
+  m_LocalRotation: {x: -0.04055108, y: -0.6608914, z: -0.035803348, w: 0.74852943}
+  m_LocalPosition: {x: 11.676, y: 5.403, z: -0.352}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4554,6 +4593,11 @@ MonoBehaviour:
       Offset: {x: 0, y: 0, z: 0}
       Easing: 1
     m_DataPoints:
+    - m_Index: 0
+      m_Value:
+        LookAt: {fileID: 274275735}
+        Offset: {x: 0, y: 0, z: 0}
+        Easing: 1
     - m_Index: 2.98
       m_Value:
         LookAt: {fileID: 1410990132}
@@ -4862,23 +4906,23 @@ MonoBehaviour:
           z: 0.011478762
           w: 0.73829025
     - Position:
-        x: -41.248
-        y: -4.849
-        z: 0.50900006
+        x: -40.542
+        y: -4.85
+        z: 0.269
       TangentIn:
         x: -0
         y: -0
-        z: -0.6550007
+        z: -0.5817754
       TangentOut:
         x: 0
         y: 0
-        z: 0.6550007
+        z: 0.5817754
       Rotation:
         value:
-          x: 0.0030889031
-          y: -0.65211785
-          z: 0.012329454
-          w: 0.75801104
+          x: 0.0041800067
+          y: -0.6606587
+          z: 0.013073253
+          w: 0.7505608
     m_MetaData:
     - Mode: 0
       Tension: 0.5
